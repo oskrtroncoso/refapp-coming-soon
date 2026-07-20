@@ -166,8 +166,8 @@ main.container { padding-top: 0; }
 }
 
 .hero-grid {
-  grid-template-columns: minmax(0, 1.18fr) minmax(0, 0.82fr);
-  gap: clamp(48px, 6vw, 90px);
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  gap: clamp(40px, 5vw, 72px);
   align-items: center;
 }
 
@@ -278,6 +278,9 @@ h1 {
 
 .product-shell {
   position: relative;
+  width: 112%;
+  max-width: 560px;
+  justify-self: center;
   padding: 16px;
   border: 1px solid rgba(148, 163, 184, 0.18);
   border-radius: 28px;
@@ -299,7 +302,9 @@ h1 {
   mask-composite: exclude;
   pointer-events: none;
 }
-
+.product-shell.is-interacting {
+  animation: none;
+}
 .product-topbar {
   display: flex;
   align-items: center;
