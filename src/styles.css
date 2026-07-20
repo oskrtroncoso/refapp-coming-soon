@@ -139,7 +139,7 @@ main.container { padding-top: 0; }
   position: relative;
   display: grid;
   align-items: center;
-  padding: 150px 0 86px;
+  padding: 185px 0 86px;
 }
 
 .hero-wrap::before {
