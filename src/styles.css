@@ -166,10 +166,11 @@ main.container { padding-top: 0; }
 }
 
 .hero-grid {
-  grid-template-columns: 1.02fr 0.98fr;
-  gap: clamp(42px, 7vw, 88px);
+  grid-template-columns: minmax(0, 1.18fr) minmax(0, 0.82fr);
+  gap: clamp(32px, 4.5vw, 64px);
   align-items: center;
 }
+
 
 .eyebrow {
   display: inline-flex;
@@ -200,9 +201,9 @@ main.container { padding-top: 0; }
 }
 
 h1 {
-  max-width: 760px;
+  max-width: 100%;
   margin: 0 0 24px;
-  font-size: clamp(2.9rem, 5.8vw, 5.6rem);
+  font-size: clamp(2.9rem, 5.4vw, 5.35rem);
   line-height: 0.95;
   letter-spacing: -0.055em;
   font-weight: 800;
@@ -217,7 +218,7 @@ h1 {
 
 .hero-word {
   display: block;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .hero-copy {
