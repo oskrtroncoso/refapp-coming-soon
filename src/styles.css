@@ -95,8 +95,8 @@ nav {
   position: fixed;
   inset: 0 0 auto;
   z-index: 50;
-  min-height: 78px;
-  padding-block: 12px;
+  min-height: 88px;
+  padding-block: 16px;
   background: linear-gradient(to bottom, rgba(5, 7, 13, 0.92), rgba(5, 7, 13, 0.34));
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
