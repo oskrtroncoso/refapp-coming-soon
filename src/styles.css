@@ -113,7 +113,7 @@ nav ul { align-items: center; }
 
 .brand img {
   display: block;
-  width: 142px;
+  width: 220px;
   height: auto;
 }
 
@@ -565,7 +565,7 @@ footer {
 }
 
 .footer-brand img {
-  width: 126px;
+  width: 190px;
   height: auto;
 }
 
@@ -625,7 +625,7 @@ footer a { color: #94a3b8; }
 @media (max-width: 720px) {
   nav { min-height: 70px; }
   nav ul:nth-child(2) li:not(:last-child) { display: none; }
-  .brand img { width: 116px; }
+  .brand img { width: 170px; }
   .hero-wrap { padding-top: 126px; }
   h1 { font-size: clamp(3rem, 15vw, 4.6rem); }
   .hero-grid { gap: 44px; }
