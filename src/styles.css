@@ -202,14 +202,22 @@ main.container { padding-top: 0; }
 h1 {
   max-width: 760px;
   margin: 0 0 24px;
-  font-size: clamp(3.3rem, 7vw, 6.7rem);
+  font-size: clamp(3.3rem, 6.2vw, 6rem);
   line-height: 0.95;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.055em;
   font-weight: 800;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
   background: linear-gradient(180deg, #ffffff 10%, #b7c2d5 95%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.hero-word {
+  display: block;
+  white-space: nowrap;
 }
 
 .hero-copy {
