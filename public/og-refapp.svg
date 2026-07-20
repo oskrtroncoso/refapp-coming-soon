@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">RefApp — The Future of Referee Performance</title>
+  <desc id="desc">Dark social sharing image for RefApp with blue and cyan branding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="1" stop-color="#0d1727"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2563eb" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="920" cy="110" r="330" fill="url(#glow)"/>
+  <circle cx="180" cy="520" r="300" fill="url(#glow)" opacity=".65"/>
+
+  <g transform="translate(90 92)">
+    <rect width="116" height="116" rx="29" fill="#0d1727" stroke="#2b3b55" stroke-width="2"/>
+    <path d="M31 86V34h30c22 0 34 10 34 27 0 12-7 20-19 24l19 29H74L57 88h-9v26H31V86zm17-13h11c11 0 17-4 17-12s-6-12-17-12H48v24z" fill="url(#g)"/>
+    <circle cx="88" cy="31" r="8" fill="#22d3ee"/>
+  </g>
+
+  <text x="235" y="178" font-family="Inter,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="-4" fill="#f8fafc">Ref</text>
+  <text x="365" y="178" font-family="Inter,Arial,sans-serif" font-size="78" font-weight="800" letter-spacing="-4" fill="url(#g)">App</text>
+
+  <text x="90" y="340" font-family="Inter,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-3" fill="#f8fafc">
+    The Future of Referee
+  </text>
+  <text x="90" y="414" font-family="Inter,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-3" fill="url(#g)">
+    Performance
+  </text>
+
+  <text x="94" y="500" font-family="Inter,Arial,sans-serif" font-size="25" fill="#98a2b3">
+    Assessments · Incident Review · Performance Analytics
+  </text>
+  <text x="94" y="560" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="600" fill="#bfdbfe">
+    refapp-tech.com
+  </text>
+</svg>
